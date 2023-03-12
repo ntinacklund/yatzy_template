@@ -1,16 +1,22 @@
-# Projektmall
+# Yatzy
+
+Nyckelord: Datastrukturer, slumptal
 
 ## Uppgiften
 
 ### Lydelse
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac tincidunt justo. Vivamus eget malesuada felis. Etiam euismod mollis lobortis. Etiam at pellentesque diam. Donec suscipit nulla arcu, consequat iaculis neque maximus non. Proin laoreet tortor nulla, in pharetra lorem laoreet id. Vestibulum condimentum, neque vel suscipit tempor, felis erat consectetur est, a bibendum metus enim et odio. Vivamus laoreet eu eros id efficitur. Nunc ac urna gravida, dignissim libero vel, pellentesque dui. Maecenas arcu enim, venenatis eu purus id, condimentum posuere lorem. Nunc pharetra, elit at convallis ultricies, nunc risus fermentum nisl, sit amet molestie nisl urna eu arcu. Nunc molestie elit ullamcorper nisl pharetra dignissim. Praesent pretium blandit ornare.
+Skapa ett protokollprogram för tärningsspelet Yatzy. Programmet ska först fråga hur många spelare som deltar, därefter ska användaren få mata in namn på dessa spelare. Därefter ska du faktiskt koda spelet där fem tärningar slås max tre gånger på en runda. Mellan varje kast kan spelaren spara tärningar. När spelaren valt att stanna, eller de tre kasten är över, så måste spelaren lägga sina tärningar nånstans i protokollet. De olika raderna har olika krav. Om ett krav inte uppfylls så blir platsen "streckad" istället.
 
-### Exempel
+Efter varje runda ska protokollet skrivas ut och visa en summa längst ner för varje spelare. Protokollet kan se ut såhär.
 
-Duis lobortis porta orci, et scelerisque diam ornare nec. Pellentesque eget suscipit ligula, et ultrices tortor. Ut congue, tellus in rutrum interdum, massa est convallis eros, at blandit quam augue vitae libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed nisi libero, pretium vel tincidunt mollis, accumsan at eros. Nunc eu congue ex, quis sodales enim. Aliquam a sem hendrerit, vehicula enim ut, maximus risus. Aenean ac lobortis justo. Aenean molestie vehicula dolor, at ullamcorper nisi eleifend a. Quisque egestas est vulputate, sagittis leo id, fermentum ante. Pellentesque cursus nulla nibh, id luctus diam laoreet in.
+![image](https://user-images.githubusercontent.com/101513815/224576509-fd79ebd4-f059-49fe-9826-70e506ef1e6e.png)
+
+Ditt program bör hantera så användaren inte kan mata in fel, eller försöka lägga poäng nånstans det inte går.
 
 ### Krav för olika betyg
+
+Programmet är på A-nivå med det givet ovan. För bedömningen C så behövs inte själva speldelen, däremot ska programmet fortfarande fungera som ett protokoll.
 
 ## Dokumentation & Planering
 
@@ -31,3 +37,7 @@ I första stadiet av projektet bör du även skissa upp ett flödesschema i för
 ## Författare
 
 Niclas Lund
+
+## Disclaimer
+
+Uppgiften (eller inspiration till den) är ärligt stulen från EECS-skolan (gamla CSC) och kursen DD1314.
